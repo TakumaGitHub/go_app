@@ -1,0 +1,2006 @@
+2021/06/14 22:04:27 main.go:16: test
+2021/06/15 00:31:22 users.go:33: no such table: users
+2021/06/22 02:46:24 server.go:3139: http: panic serving 127.0.0.1:61586: template: layout.html:13: missing value for command
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000105360)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc000416990)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc00041cb60, 0x44b0b20, 0x45991a0, 0xc0000d3ab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc00041cb60, 0xc0002a5e00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc00041cb60, 0xc0002a5e00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc00041cb60, 0xc0002a5e00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc00041cb60, 0xc0002a5e00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105360, 0x45a6460, 0xc000096000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:24 server.go:3139: http: panic serving 127.0.0.1:61660: template: layout.html:13: missing value for command
+goroutine 198 [running]:
+net/http.(*conn).serve.func1(0xc000408dc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc000416a60)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc00041cd20, 0x44b0b20, 0x45991a0, 0xc000044ab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc00041cd20, 0xc000418800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc00041cd20, 0xc000418800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc00041cd20, 0xc000418800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc00041cd20, 0xc000418800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000408dc0, 0x45a6460, 0xc000458dc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:24 server.go:3139: http: panic serving 127.0.0.1:61661: template: layout.html:13: missing value for command
+goroutine 214 [running]:
+net/http.(*conn).serve.func1(0xc0000d9a40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc00029fe30)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc0000a1c00, 0x44b0b20, 0x45991a0, 0xc000045ab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc0000a1c00, 0xc00009d800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc0000a1c00, 0xc00009d800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc0000a1c00, 0xc00009d800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc0000a1c00, 0xc00009d800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000d9a40, 0x45a6460, 0xc000393240)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:25 server.go:3139: http: panic serving 127.0.0.1:61662: template: layout.html:13: missing value for command
+goroutine 203 [running]:
+net/http.(*conn).serve.func1(0xc000408e60)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc000416b50)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc00041cee0, 0x44b0b20, 0x45991a0, 0xc00049cab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc00041cee0, 0xc000418a00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc00041cee0, 0xc000418a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc00041cee0, 0xc000418a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc00041cee0, 0xc000418a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000408e60, 0x45a6460, 0xc000459080)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:30 server.go:3139: http: panic serving 127.0.0.1:61663: template: layout.html:13: missing value for command
+goroutine 204 [running]:
+net/http.(*conn).serve.func1(0xc000408f00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc00029fef0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc00032ab60, 0x44b0b20, 0x45991a0, 0xc000044ab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc00032ab60, 0xc000418900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc00032ab60, 0xc000418900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc00032ab60, 0xc000418900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc00032ab60, 0xc000418900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000408f00, 0x45a6460, 0xc000459000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:30 server.go:3139: http: panic serving 127.0.0.1:61664: template: layout.html:13: missing value for command
+goroutine 217 [running]:
+net/http.(*conn).serve.func1(0xc0000d9ae0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1680, 0xc0000994d0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5cb0, 0xc0000a1dc0, 0x44b0b20, 0x45991a0, 0xc000045ab8, 0x2, 0x2)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5cb0, 0xc0000a1dc0, 0xc00009d900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xa5
+net/http.HandlerFunc.ServeHTTP(0x4548e58, 0x45a5cb0, 0xc0000a1dc0, 0xc00009d900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5cb0, 0xc0000a1dc0, 0xc00009d900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5cb0, 0xc0000a1dc0, 0xc00009d900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000d9ae0, 0x45a6460, 0xc000393380)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61670: template: layout.html:13: missing value for command
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc0000b9360)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000990f0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001101c0, 0x44b09e0, 0x45990a0, 0xc000189aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001101c0, 0xc000108200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001101c0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001101c0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0001101c0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000b9360, 0x45a6380, 0xc000190000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61671: template: layout.html:13: missing value for command
+goroutine 21 [running]:
+net/http.(*conn).serve.func1(0xc0000b9400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000991d0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000110380, 0x44b09e0, 0x45990a0, 0xc0000c1aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000110380, 0xc000108100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000110380, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000110380, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc000110380, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000b9400, 0x45a6380, 0xc0000d84c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61672: template: layout.html:13: missing value for command
+goroutine 5 [running]:
+net/http.(*conn).serve.func1(0xc00006c000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000120f0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0000720e0, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0000720e0, 0xc00006e000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0000720e0, 0xc00006e000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0000720e0, 0xc00006e000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0000720e0, 0xc00006e000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006c000, 0x45a6380, 0xc00005c040)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61673: template: layout.html:13: missing value for command
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc00019c000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000121d0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0000722a0, 0x44b09e0, 0x45990a0, 0xc00018baa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0000722a0, 0xc0001a2100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0000722a0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0000722a0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0000722a0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00019c000, 0x45a6380, 0xc000190140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61674: template: layout.html:13: missing value for command
+goroutine 35 [running]:
+net/http.(*conn).serve.func1(0xc00019c0a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000992b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000110540, 0x44b09e0, 0x45990a0, 0xc00018aaa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000110540, 0xc0001a2000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000110540, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000110540, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc000110540, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00019c0a0, 0x45a6380, 0xc000190080)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/22 02:46:50 server.go:3139: http: panic serving 127.0.0.1:61675: template: layout.html:13: missing value for command
+goroutine 28 [running]:
+net/http.(*conn).serve.func1(0xc0000b94a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc0000993a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000110700, 0x44b09e0, 0x45990a0, 0xc00018aaa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000110700, 0xc000108300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000110700, 0xc000108300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000110700, 0xc000108300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc000110700, 0xc000108300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000b94a0, 0x45a6380, 0xc0000d89c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:25 server.go:3139: http: panic serving 127.0.0.1:62013: template: layout.html:15: unterminated quoted string
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc000125400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000012aa0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000200b60, 0x44b09e0, 0x45990a0, 0xc00019baa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000200b60, 0xc0002a2800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000200b60, 0xc0002a2800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000200b60, 0xc0002a2800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000200b60, 0xc0002a2800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125400, 0x45a6380, 0xc0001464c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:25 server.go:3139: http: panic serving 127.0.0.1:62077: template: layout.html:15: unterminated quoted string
+goroutine 14 [running]:
+net/http.(*conn).serve.func1(0xc00006e640)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000012ae0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180b60, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180b60, 0xc000072300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180b60, 0xc000072300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180b60, 0xc000072300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180b60, 0xc000072300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006e640, 0x45a6380, 0xc00005d340)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:25 server.go:3139: http: panic serving 127.0.0.1:62082: template: layout.html:15: unterminated quoted string
+goroutine 110 [running]:
+net/http.(*conn).serve.func1(0xc0002c68c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000298a70)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00029ce00, 0x44b09e0, 0x45990a0, 0xc0002e6aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00029ce00, 0xc0002a2900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00029ce00, 0xc0002a2900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00029ce00, 0xc0002a2900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00029ce00, 0xc0002a2900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c68c0, 0x45a6380, 0xc000297d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:26 server.go:3139: http: panic serving 127.0.0.1:62083: template: layout.html:15: unterminated quoted string
+goroutine 113 [running]:
+net/http.(*conn).serve.func1(0xc0002c6960)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000298b50)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00029cfc0, 0x44b09e0, 0x45990a0, 0xc0002e6aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00029cfc0, 0xc0002a2a00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00029cfc0, 0xc0002a2a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00029cfc0, 0xc0002a2a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00029cfc0, 0xc0002a2a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c6960, 0x45a6380, 0xc000297f40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:31 server.go:3139: http: panic serving 127.0.0.1:62084: template: layout.html:15: unterminated quoted string
+goroutine 79 [running]:
+net/http.(*conn).serve.func1(0xc000125e00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000298c20)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00029d180, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00029d180, 0xc000178a00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00029d180, 0xc000178a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00029d180, 0xc000178a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00029d180, 0xc000178a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125e00, 0x45a6380, 0xc0001b6980)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:31 server.go:3139: http: panic serving 127.0.0.1:62086: template: layout.html:15: unterminated quoted string
+goroutine 80 [running]:
+net/http.(*conn).serve.func1(0xc000125ea0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000298c80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000200d20, 0x44b09e0, 0x45990a0, 0xc000042aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000200d20, 0xc000178b00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000200d20, 0xc000178b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000200d20, 0xc000178b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000200d20, 0xc000178b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125ea0, 0x45a6380, 0xc0001b6a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/23 23:57:31 server.go:3139: http: panic serving 127.0.0.1:62087: template: layout.html:15: unterminated quoted string
+goroutine 148 [running]:
+net/http.(*conn).serve.func1(0xc00006ed20)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c1540, 0xc000012c20)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000200ee0, 0x44b09e0, 0x45990a0, 0xc000042aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000200ee0, 0xc000072800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000200ee0, 0xc000072800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000200ee0, 0xc000072800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000200ee0, 0xc000072800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006ed20, 0x45a6380, 0xc00022cd00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:20 server.go:3139: http: panic serving 127.0.0.1:62089: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 151 [running]:
+net/http.(*conn).serve.func1(0xc00006edc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d6d50)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000181420, 0x44b09e0, 0x45990a0, 0xc00019baa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000181420, 0xc000179900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000181420, 0xc000179900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000181420, 0xc000179900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000181420, 0xc000179900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006edc0, 0x45a6380, 0xc00022cf40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:20 server.go:3139: http: panic serving 127.0.0.1:62088: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 81 [running]:
+net/http.(*conn).serve.func1(0xc000125f40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d71a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001815e0, 0x44b09e0, 0x45990a0, 0xc000197aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001815e0, 0xc000179100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001815e0, 0xc000179100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001815e0, 0xc000179100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001815e0, 0xc000179100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125f40, 0x45a6380, 0xc0001b6ac0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:20 server.go:3139: http: panic serving 127.0.0.1:63173: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 138 [running]:
+net/http.(*conn).serve.func1(0xc0002c6b40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d7290)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00029d500, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00029d500, 0xc0002a2c00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00029d500, 0xc0002a2c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00029d500, 0xc0002a2c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00029d500, 0xc0002a2c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c6b40, 0x45a6380, 0xc0002fe800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:21 server.go:3139: http: panic serving 127.0.0.1:63178: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 192 [running]:
+net/http.(*conn).serve.func1(0xc00006f7c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00038e390)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000201ce0, 0x44b09e0, 0x45990a0, 0xc000048aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000201ce0, 0xc000073800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000201ce0, 0xc000073800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000201ce0, 0xc000073800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000201ce0, 0xc000073800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006f7c0, 0x45a6380, 0xc000382940)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:23 server.go:3139: http: panic serving 127.0.0.1:63179: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 193 [running]:
+net/http.(*conn).serve.func1(0xc00006f860)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000323530)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00029d6c0, 0x44b09e0, 0x45990a0, 0xc000042aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00029d6c0, 0xc000073700)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00029d6c0, 0xc000073700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00029d6c0, 0xc000073700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00029d6c0, 0xc000073700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006f860, 0x45a6380, 0xc0003828c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:23 server.go:3139: http: panic serving 127.0.0.1:63188: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 141 [running]:
+net/http.(*conn).serve.func1(0xc0002c6be0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d7710)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001817a0, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001817a0, 0xc0002a2d00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001817a0, 0xc0002a2d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001817a0, 0xc0002a2d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001817a0, 0xc0002a2d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c6be0, 0x45a6380, 0xc0002fe980)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:23 server.go:3139: http: panic serving 127.0.0.1:63189: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 196 [running]:
+net/http.(*conn).serve.func1(0xc00006f900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d7800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000201ea0, 0x44b09e0, 0x45990a0, 0xc000048aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000201ea0, 0xc000073900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000201ea0, 0xc000073900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000201ea0, 0xc000073900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000201ea0, 0xc000073900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006f900, 0x45a6380, 0xc000382c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:28 server.go:3139: http: panic serving 127.0.0.1:63218: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 199 [running]:
+net/http.(*conn).serve.func1(0xc00006f9a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001d7c80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000181960, 0x44b09e0, 0x45990a0, 0xc000049aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000181960, 0xc000073b00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000181960, 0xc000073b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000181960, 0xc000073b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000181960, 0xc000073b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006f9a0, 0x45a6380, 0xc000382e40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:28 server.go:3139: http: panic serving 127.0.0.1:63219: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 200 [running]:
+net/http.(*conn).serve.func1(0xc00006fa40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00038ede0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0003a80e0, 0x44b09e0, 0x45990a0, 0xc000048aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0003a80e0, 0xc000073a00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0003a80e0, 0xc000073a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0003a80e0, 0xc000073a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0003a80e0, 0xc000073a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00006fa40, 0x45a6380, 0xc000382dc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 00:02:28 server.go:3139: http: panic serving 127.0.0.1:63220: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 212 [running]:
+net/http.(*conn).serve.func1(0xc0001d45a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0004521e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000181b20, 0x44b09e0, 0x45990a0, 0xc000049aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000181b20, 0xc000179a00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000181b20, 0xc000179a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000181b20, 0xc000179a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000181b20, 0xc000179a00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001d45a0, 0x45a6380, 0xc0001b7fc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:32 server.go:3139: http: panic serving 127.0.0.1:55603: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 289 [running]:
+net/http.(*conn).serve.func1(0xc0000a4000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0003e0480)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001801c0, 0x44b09e0, 0x45990a0, 0xc000129aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001801c0, 0xc0001ac000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001801c0, 0xc0001ac000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001801c0, 0xc0001ac000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001801c0, 0xc0001ac000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a4000, 0x45a6380, 0xc00044e000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:32 server.go:3139: http: panic serving 127.0.0.1:60888: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 451 [running]:
+net/http.(*conn).serve.func1(0xc0000a4140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000103110)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180380, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180380, 0xc00057c100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180380, 0xc00057c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180380, 0xc00057c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180380, 0xc00057c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a4140, 0x45a6380, 0xc00044e040)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:32 server.go:3139: http: panic serving 127.0.0.1:60889: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 471 [running]:
+net/http.(*conn).serve.func1(0xc0002c6000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000506360)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00007e0e0, 0x44b09e0, 0x45990a0, 0xc00017eaa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00007e0e0, 0xc0001ac100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00007e0e0, 0xc0001ac100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00007e0e0, 0xc0001ac100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00007e0e0, 0xc0001ac100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c6000, 0x45a6380, 0xc00005c200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:33 server.go:3139: http: panic serving 127.0.0.1:60895: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 482 [running]:
+net/http.(*conn).serve.func1(0xc000124320)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000103c80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00007e2a0, 0x44b09e0, 0x45990a0, 0xc000045aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00007e2a0, 0xc00057c200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00007e2a0, 0xc00057c200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00007e2a0, 0xc00057c200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00007e2a0, 0xc00057c200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000124320, 0x45a6380, 0xc00044e2c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:33 server.go:3139: http: panic serving 127.0.0.1:60896: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 483 [running]:
+net/http.(*conn).serve.func1(0xc000124f00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0003e0d50)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180540, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180540, 0xc0001d8000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180540, 0xc0001d8000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180540, 0xc0001d8000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180540, 0xc0001d8000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000124f00, 0x45a6380, 0xc000146800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:33 server.go:3139: http: panic serving 127.0.0.1:60897: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 486 [running]:
+net/http.(*conn).serve.func1(0xc000125040)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0003e1290)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180700, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180700, 0xc0001d8100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180700, 0xc0001d8100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180700, 0xc0001d8100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180700, 0xc0001d8100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125040, 0x45a6380, 0xc000146b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:35 server.go:3139: http: panic serving 127.0.0.1:60910: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 452 [running]:
+net/http.(*conn).serve.func1(0xc0000a41e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00009a210)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00007e460, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00007e460, 0xc0001d8200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00007e460, 0xc0001d8200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00007e460, 0xc0001d8200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00007e460, 0xc0001d8200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a41e0, 0x45a6380, 0xc000146e40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:35 server.go:3139: http: panic serving 127.0.0.1:60911: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 453 [running]:
+net/http.(*conn).serve.func1(0xc0000a4280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000506990)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00015c0e0, 0x44b09e0, 0x45990a0, 0xc000049aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00015c0e0, 0xc00057c300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00015c0e0, 0xc00057c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00015c0e0, 0xc00057c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00015c0e0, 0xc00057c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a4280, 0x45a6380, 0xc00044e340)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:35 server.go:3139: http: panic serving 127.0.0.1:60912: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 478 [running]:
+net/http.(*conn).serve.func1(0xc0002c60a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00009a7b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc00007e620, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc00007e620, 0xc0001ac200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc00007e620, 0xc0001ac200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc00007e620, 0xc0001ac200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc00007e620, 0xc0001ac200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002c60a0, 0x45a6380, 0xc00005c8c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:00:40 server.go:3139: http: panic serving 127.0.0.1:60933: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 489 [running]:
+net/http.(*conn).serve.func1(0xc000125180)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0003e1a70)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001808c0, 0x44b09e0, 0x45990a0, 0xc00017aaa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001808c0, 0xc0001d8400)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001808c0, 0xc0001d8400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001808c0, 0xc0001d8400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001808c0, 0xc0001d8400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125180, 0x45a6380, 0xc000146f40)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:01:10 server.go:3139: http: panic serving 127.0.0.1:60934: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 490 [running]:
+net/http.(*conn).serve.func1(0xc000125220)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0003e1ef0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180a80, 0x44b09e0, 0x45990a0, 0xc000042aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180a80, 0xc0001d8300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180a80, 0xc0001d8300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180a80, 0xc0001d8300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180a80, 0xc0001d8300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000125220, 0x45a6380, 0xc000146ec0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:01:10 server.go:3139: http: panic serving 127.0.0.1:61055: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 456 [running]:
+net/http.(*conn).serve.func1(0xc0000a4320)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000202390)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180c40, 0x44b09e0, 0x45990a0, 0xc000049aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180c40, 0xc00057c400)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180c40, 0xc00057c400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180c40, 0xc00057c400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180c40, 0xc00057c400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a4320, 0x45a6380, 0xc00044e640)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:01:10 server.go:3139: http: panic serving 127.0.0.1:61056: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 457 [running]:
+net/http.(*conn).serve.func1(0xc0000a43c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000202810)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180e00, 0x44b09e0, 0x45990a0, 0xc000043aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180e00, 0xc00057c500)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180e00, 0xc00057c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180e00, 0xc00057c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180e00, 0xc00057c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a43c0, 0x45a6380, 0xc00044e6c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:02:10 server.go:3139: http: panic serving 127.0.0.1:61296: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 458 [running]:
+net/http.(*conn).serve.func1(0xc000124320)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00009a4b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001801c0, 0x44b09e0, 0x45990a0, 0xc000043aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001801c0, 0xc0001a2100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001801c0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001801c0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001801c0, 0xc0001a2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000124320, 0x45a6380, 0xc00044e080)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:02:10 server.go:3139: http: panic serving 127.0.0.1:61297: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 459 [running]:
+net/http.(*conn).serve.func1(0xc000124f00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00009a960)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000180380, 0x44b09e0, 0x45990a0, 0xc000044aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000180380, 0xc0001a2000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000180380, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000180380, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc000180380, 0xc0001a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000124f00, 0x45a6380, 0xc00044e000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:02:10 server.go:3139: http: panic serving 127.0.0.1:61298: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 517 [running]:
+net/http.(*conn).serve.func1(0xc0000f0000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000506630)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001a80e0, 0x44b09e0, 0x45990a0, 0xc000044aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001a80e0, 0xc0000fc000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001a80e0, 0xc0000fc000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001a80e0, 0xc0000fc000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000180000, 0x45a5bd0, 0xc0001a80e0, 0xc0000fc000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000f0000, 0x45a6380, 0xc00005c5c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:50 server.go:3139: http: panic serving 127.0.0.1:50519: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000105360)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000094570)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0000a80e0, 0x44b09e0, 0x45990a0, 0xc00018faa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0000a80e0, 0xc000148300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0000a80e0, 0xc000148300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0000a80e0, 0xc000148300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5bd0, 0xc0000a80e0, 0xc000148300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105360, 0x45a6380, 0xc000096000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:50 server.go:3139: http: panic serving 127.0.0.1:50783: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc0000a2000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc0001ce180)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000150380, 0x44b09e0, 0x45990a0, 0xc000044aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000150380, 0xc0000a4000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000150380, 0xc0000a4000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000150380, 0xc0000a4000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5bd0, 0xc000150380, 0xc0000a4000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a2000, 0x45a6380, 0xc000096080)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:50 server.go:3139: http: panic serving 127.0.0.1:50784: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 13 [running]:
+net/http.(*conn).serve.func1(0xc0001054a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00016e330)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000150540, 0x44b09e0, 0x45990a0, 0xc000044aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000150540, 0xc000148400)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000150540, 0xc000148400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000150540, 0xc000148400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5bd0, 0xc000150540, 0xc000148400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001054a0, 0x45a6380, 0xc00005c8c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:51 server.go:3139: http: panic serving 127.0.0.1:50789: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 37 [running]:
+net/http.(*conn).serve.func1(0xc0000a20a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000094ba0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0000a82a0, 0x44b09e0, 0x45990a0, 0xc0000e6aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0000a82a0, 0xc0000a4200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0000a82a0, 0xc0000a4200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0000a82a0, 0xc0000a4200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000150000, 0x45a5bd0, 0xc0000a82a0, 0xc0000a4200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000a20a0, 0x45a6380, 0xc000096400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:56 server.go:3139: http: panic serving 127.0.0.1:50816: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc0000b9400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000186450)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001840e0, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001840e0, 0xc000070000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001840e0, 0xc000070000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001840e0, 0xc000070000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0001840e0, 0xc000070000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000b9400, 0x45a6380, 0xc00005c040)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:56 server.go:3139: http: panic serving 127.0.0.1:50817: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 21 [running]:
+net/http.(*conn).serve.func1(0xc0000b94a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc00009bb90)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001101c0, 0x44b09e0, 0x45990a0, 0xc0000c1aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001101c0, 0xc000108100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001101c0, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001101c0, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0001101c0, 0xc000108100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000b94a0, 0x45a6380, 0xc0000d84c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:25:56 server.go:3139: http: panic serving 127.0.0.1:50818: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 5 [running]:
+net/http.(*conn).serve.func1(0xc000074000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000186900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc0001842a0, 0x44b09e0, 0x45990a0, 0xc000042aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc0001842a0, 0xc000108200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc0001842a0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc0001842a0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc0001842a0, 0xc000108200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000074000, 0x45a6380, 0xc0000d8800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/24 01:26:12 server.go:3139: http: panic serving 127.0.0.1:50879: open app/views/templates/public_navbar.html: no such file or directory
+goroutine 38 [running]:
+net/http.(*conn).serve.func1(0xc0001f4000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44d3a80, 0xc000186f60)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45a5bd0, 0xc000184460, 0x44b09e0, 0x45990a0, 0xc000047aa8, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:15 +0x2ce
+main/app/controllers.top(0x45a5bd0, 0xc000184460, 0xc0001f6100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:8 +0xc5
+net/http.HandlerFunc.ServeHTTP(0x4548d38, 0x45a5bd0, 0xc000184460, 0xc0001f6100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47c2f20, 0x45a5bd0, 0xc000184460, 0xc0001f6100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000110000, 0x45a5bd0, 0xc000184460, 0xc0001f6100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001f4000, 0x45a6380, 0xc0001965c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:07 server.go:3139: http: panic serving 127.0.0.1:65265: template: index.html:14: unexpected {{end}}
+goroutine 7 [running]:
+net/http.(*conn).serve.func1(0xc000105400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b4000, 0x450f8c0, 0xc0000be200, 0xc000107928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b4000, 0xc000118200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b4000, 0xc000118200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b4000, 0xc000118200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b4000, 0xc000118200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105400, 0x45ae8e0, 0xc00005c5c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:07 server.go:3139: http: panic serving 127.0.0.1:65266: template: index.html:14: unexpected {{end}}
+goroutine 8 [running]:
+net/http.(*conn).serve.func1(0xc0001054a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b0430)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b40e0, 0x450f8c0, 0xc0000be580, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b40e0, 0xc000118100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b40e0, 0xc000118100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b40e0, 0xc000118100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b40e0, 0xc000118100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001054a0, 0x45ae8e0, 0xc00005c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:07 server.go:3139: http: panic serving 127.0.0.1:65267: template: index.html:14: unexpected {{end}}
+goroutine 11 [running]:
+net/http.(*conn).serve.func1(0xc000105540)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b06e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b41c0, 0x450f8c0, 0xc0000bea00, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b41c0, 0xc000098200)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b41c0, 0xc000098200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b41c0, 0xc000098200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b41c0, 0xc000098200)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105540, 0x45ae8e0, 0xc0000ae600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:08 server.go:3139: http: panic serving 127.0.0.1:65268: template: index.html:14: unexpected {{end}}
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc000208000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b0980)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b42a0, 0x450f8c0, 0xc0000bee80, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b42a0, 0xc00021c100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b42a0, 0xc00021c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b42a0, 0xc00021c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b42a0, 0xc00021c100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208000, 0x45ae8e0, 0xc0002140c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:08 server.go:3139: http: panic serving 127.0.0.1:65269: template: index.html:14: unexpected {{end}}
+goroutine 35 [running]:
+net/http.(*conn).serve.func1(0xc0002080a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013230)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000236000, 0x450f8c0, 0xc000202300, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000236000, 0xc00021c000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000236000, 0xc00021c000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000236000, 0xc00021c000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000236000, 0xc00021c000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002080a0, 0x45ae8e0, 0xc000214000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:08 server.go:3139: http: panic serving 127.0.0.1:65270: template: index.html:14: unexpected {{end}}
+goroutine 38 [running]:
+net/http.(*conn).serve.func1(0xc000208140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013320)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0002360e0, 0x450f8c0, 0xc000202680, 0xc000245928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0002360e0, 0xc00021c300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0002360e0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0002360e0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0002360e0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208140, 0x45ae8e0, 0xc000214340)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:09 server.go:3139: http: panic serving 127.0.0.1:65271: template: index.html:14: unexpected {{end}}
+goroutine 41 [running]:
+net/http.(*conn).serve.func1(0xc0002081e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000135c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001520e0, 0x450f8c0, 0xc000154a80, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001520e0, 0xc00021c600)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001520e0, 0xc00021c600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001520e0, 0xc00021c600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0001520e0, 0xc00021c600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002081e0, 0x45ae8e0, 0xc000214680)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:09 server.go:3139: http: panic serving 127.0.0.1:65272: template: index.html:14: unexpected {{end}}
+goroutine 42 [running]:
+net/http.(*conn).serve.func1(0xc000208280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013860)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001521c0, 0x450f8c0, 0xc000154f80, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001521c0, 0xc00021c500)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001521c0, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001521c0, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0001521c0, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208280, 0x45ae8e0, 0xc000214600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:09 server.go:3139: http: panic serving 127.0.0.1:65273: template: index.html:14: unexpected {{end}}
+goroutine 32 [running]:
+net/http.(*conn).serve.func1(0xc0000fe000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001522a0, 0x450f8c0, 0xc000155400, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001522a0, 0xc000098600)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001522a0, 0xc000098600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001522a0, 0xc000098600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0001522a0, 0xc000098600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000fe000, 0x45ae8e0, 0xc0000aee80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:10 server.go:3139: http: panic serving 127.0.0.1:65274: template: index.html:14: unexpected {{end}}
+goroutine 43 [running]:
+net/http.(*conn).serve.func1(0xc000208320)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000013da0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000152380, 0x450f8c0, 0xc000155880, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000152380, 0xc00021c800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000152380, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000152380, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000152380, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208320, 0x45ae8e0, 0xc000214780)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:10 server.go:3139: http: panic serving 127.0.0.1:65275: template: index.html:14: unexpected {{end}}
+goroutine 44 [running]:
+net/http.(*conn).serve.func1(0xc0002083c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b0c30)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b4380, 0x450f8c0, 0xc0000bf480, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b4380, 0xc00021c700)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b4380, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b4380, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b4380, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002083c0, 0x45ae8e0, 0xc000214700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:10 server.go:3139: http: panic serving 127.0.0.1:65276: template: index.html:14: unexpected {{end}}
+goroutine 45 [running]:
+net/http.(*conn).serve.func1(0xc000208460)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000216660)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0002361c0, 0x450f8c0, 0xc000202c00, 0xc000245928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0002361c0, 0xc00021c900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0002361c0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0002361c0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0002361c0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208460, 0x45ae8e0, 0xc000214800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:11 server.go:3139: http: panic serving 127.0.0.1:65277: template: index.html:14: unexpected {{end}}
+goroutine 82 [running]:
+net/http.(*conn).serve.func1(0xc000208500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000216760)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b4460, 0x450f8c0, 0xc0000bf900, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b4460, 0xc00021cb00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b4460, 0xc00021cb00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b4460, 0xc00021cb00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b4460, 0xc00021cb00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000208500, 0x45ae8e0, 0xc000214c80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:12 server.go:3139: http: panic serving 127.0.0.1:65278: template: index.html:14: unexpected {{end}}
+goroutine 83 [running]:
+net/http.(*conn).serve.func1(0xc0002085a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000382050)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000152460, 0x450f8c0, 0xc000155d80, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000152460, 0xc00021cc00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000152460, 0xc00021cc00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000152460, 0xc00021cc00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000152460, 0xc00021cc00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0002085a0, 0x45ae8e0, 0xc000214d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:12 server.go:3139: http: panic serving 127.0.0.1:65279: template: index.html:14: unexpected {{end}}
+goroutine 71 [running]:
+net/http.(*conn).serve.func1(0xc0000fe0a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b0ef0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0002362a0, 0x450f8c0, 0xc000203280, 0xc000245928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0002362a0, 0xc000098900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0002362a0, 0xc000098900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0002362a0, 0xc000098900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0002362a0, 0xc000098900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000fe0a0, 0x45ae8e0, 0xc0000af540)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:12 server.go:3139: http: panic serving 127.0.0.1:65280: template: index.html:14: unexpected {{end}}
+goroutine 101 [running]:
+net/http.(*conn).serve.func1(0xc0001055e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b1190)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b4540, 0x450f8c0, 0xc0000bfe00, 0xc000245928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b4540, 0xc000118800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b4540, 0xc000118800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b4540, 0xc000118800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b4540, 0xc000118800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001055e0, 0x45ae8e0, 0xc0001fe100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:12 server.go:3139: http: panic serving 127.0.0.1:65281: template: index.html:14: unexpected {{end}}
+goroutine 102 [running]:
+net/http.(*conn).serve.func1(0xc000105680)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000382310)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000152540, 0x450f8c0, 0xc000394300, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000152540, 0xc000118900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000152540, 0xc000118900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000152540, 0xc000118900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000152540, 0xc000118900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105680, 0x45ae8e0, 0xc0001fe180)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:18 server.go:3139: http: panic serving 127.0.0.1:65282: template: index.html:14: unexpected {{end}}
+goroutine 78 [running]:
+net/http.(*conn).serve.func1(0xc0000fe140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00041e280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000422000, 0x450f8c0, 0xc000430200, 0xc00023f928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000422000, 0xc000098b00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000422000, 0xc000098b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000422000, 0xc000098b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000422000, 0xc000098b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000fe140, 0x45ae8e0, 0xc0000afc00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:18 server.go:3139: http: panic serving 127.0.0.1:65283: template: index.html:14: unexpected {{end}}
+goroutine 107 [running]:
+net/http.(*conn).serve.func1(0xc000105720)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00041e520)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0004220e0, 0x450f8c0, 0xc000430700, 0xc00023f928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0004220e0, 0xc000118b00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0004220e0, 0xc000118b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0004220e0, 0xc000118b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0004220e0, 0xc000118b00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105720, 0x45ae8e0, 0xc0001fe600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:18 server.go:3139: http: panic serving 127.0.0.1:65284: template: index.html:14: unexpected {{end}}
+goroutine 108 [running]:
+net/http.(*conn).serve.func1(0xc0001057c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0003825d0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000152620, 0x450f8c0, 0xc000394880, 0xc000243928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000152620, 0xc000118c00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000152620, 0xc000118c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000152620, 0xc000118c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000152620, 0xc000118c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001057c0, 0x45ae8e0, 0xc0001fe680)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:19 server.go:3139: http: panic serving 127.0.0.1:65286: template: index.html:14: unexpected {{end}}
+goroutine 79 [running]:
+net/http.(*conn).serve.func1(0xc0000fe1e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000b1460)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0000b4620, 0x450f8c0, 0xc0002c8400, 0xc000245928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0000b4620, 0xc000098d00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0000b4620, 0xc000098d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0000b4620, 0xc000098d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0000b4620, 0xc000098d00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000fe1e0, 0x45ae8e0, 0xc0000afd00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:30 server.go:3139: http: panic serving 127.0.0.1:65287: template: index.html:14: unexpected {{end}}
+goroutine 80 [running]:
+net/http.(*conn).serve.func1(0xc0000fe280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000523490)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000236460, 0x450f8c0, 0xc000430700, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000236460, 0xc000098c00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000236460, 0xc000098c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000236460, 0xc000098c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000236460, 0xc000098c00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000fe280, 0x45ae8e0, 0xc0000afc80)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:30 server.go:3139: http: panic serving 127.0.0.1:65295: template: index.html:14: unexpected {{end}}
+goroutine 153 [running]:
+net/http.(*conn).serve.func1(0xc000104820)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000528410)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001522a0, 0x450f8c0, 0xc000202700, 0xc000241928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001522a0, 0xc00021c300)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001522a0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001522a0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0001522a0, 0xc00021c300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000104820, 0x45ae8e0, 0xc0002e4bc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:30 server.go:3139: http: panic serving 127.0.0.1:65296: template: index.html:14: unexpected {{end}}
+goroutine 158 [running]:
+net/http.(*conn).serve.func1(0xc000105400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00052c2d0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000236540, 0x450f8c0, 0xc000430f80, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000236540, 0xc00021c500)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000236540, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000236540, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000236540, 0xc00021c500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105400, 0x45ae8e0, 0xc0002e5000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 02:59:31 server.go:3139: http: panic serving 127.0.0.1:65297: template: index.html:14: unexpected {{end}}
+goroutine 161 [running]:
+net/http.(*conn).serve.func1(0xc0001054a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00052cbf0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000422000, 0x450f8c0, 0xc0002c8400, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000422000, 0xc00021c700)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000422000, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000422000, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000422000, 0xc00021c700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001054a0, 0x45ae8e0, 0xc0002e5240)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:00:01 server.go:3139: http: panic serving 127.0.0.1:65298: template: index.html:14: unexpected {{end}}
+goroutine 178 [running]:
+net/http.(*conn).serve.func1(0xc000105540)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00052d470)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0004220e0, 0x450f8c0, 0xc0002c8b80, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0004220e0, 0xc00021c800)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0004220e0, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0004220e0, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0004220e0, 0xc00021c800)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105540, 0x45ae8e0, 0xc0002e5300)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:00:01 server.go:3139: http: panic serving 127.0.0.1:65299: template: index.html:14: unexpected {{end}}
+goroutine 179 [running]:
+net/http.(*conn).serve.func1(0xc0001055e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00052dc30)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0004222a0, 0x450f8c0, 0xc0002c9000, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0004222a0, 0xc00021c900)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0004222a0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0004222a0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc0004222a0, 0xc00021c900)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001055e0, 0x45ae8e0, 0xc0002e53c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:00:01 server.go:3139: http: panic serving 127.0.0.1:65300: template: index.html:14: unexpected {{end}}
+goroutine 180 [running]:
+net/http.(*conn).serve.func1(0xc000105680)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0005306b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000422380, 0x450f8c0, 0xc0002c9300, 0xc00010d928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000422380, 0xc00021ca00)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000422380, 0xc00021ca00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000422380, 0xc00021ca00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000152000, 0x45ae130, 0xc000422380, 0xc00021ca00)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000105680, 0x45ae8e0, 0xc0002e5440)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:01 server.go:3139: http: panic serving 127.0.0.1:65305: template: index.html:14: unexpected {{end}}
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc0000bb360)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000992c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001920e0, 0x450f8c0, 0xc000194380, 0xc0000c3928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001920e0, 0xc0000d2100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001920e0, 0xc0000d2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001920e0, 0xc0000d2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc0001920e0, 0xc0000d2100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000bb360, 0x45ae8e0, 0xc0000d64c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:29 server.go:3139: http: panic serving 127.0.0.1:65306: template: index.html:14: unexpected {{end}}
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc000114000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000099560)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001921c0, 0x450f8c0, 0xc000194900, 0xc0000c3928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001921c0, 0xc000120000)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001921c0, 0xc000120000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001921c0, 0xc000120000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc0001921c0, 0xc000120000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000114000, 0x45ae8e0, 0xc00011a000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:29 server.go:3139: http: panic serving 127.0.0.1:65307: template: index.html:14: unexpected {{end}}
+goroutine 35 [running]:
+net/http.(*conn).serve.func1(0xc0001140a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000995b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000138000, 0x450f8c0, 0xc00010e300, 0xc0000bd928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000138000, 0xc000120100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000138000, 0xc000120100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000138000, 0xc000120100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc000138000, 0xc000120100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001140a0, 0x45ae8e0, 0xc00011a0c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:29 server.go:3139: http: panic serving 127.0.0.1:65308: template: index.html:14: unexpected {{end}}
+goroutine 29 [running]:
+net/http.(*conn).serve.func1(0xc0000bb400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00011c340)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0001922a0, 0x450f8c0, 0xc000194f00, 0xc0000c3928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0001922a0, 0xc0000d2400)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0001922a0, 0xc0000d2400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0001922a0, 0xc0000d2400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc0001922a0, 0xc0000d2400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000bb400, 0x45ae8e0, 0xc0000d6dc0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65309: template: index.html:14: unexpected {{end}}
+goroutine 42 [running]:
+net/http.(*conn).serve.func1(0xc000114140)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0000122a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc00007a000, 0x450f8c0, 0xc000208200, 0xc000205928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc00007a000, 0xc000120500)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc00007a000, 0xc000120500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc00007a000, 0xc000120500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc00007a000, 0xc000120500)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000114140, 0x45ae8e0, 0xc00011a7c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65310: template: index.html:14: unexpected {{end}}
+goroutine 43 [running]:
+net/http.(*conn).serve.func1(0xc0001141e0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000099a10)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000192380, 0x450f8c0, 0xc000195200, 0xc000201928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000192380, 0xc000120400)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000192380, 0xc000120400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000192380, 0xc000120400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc000192380, 0xc000120400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0001141e0, 0x45ae8e0, 0xc00011a740)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65311: template: index.html:14: unexpected {{end}}
+goroutine 52 [running]:
+net/http.(*conn).serve.func1(0xc0000bb4a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc00011c3b0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc000192460, 0x450f8c0, 0xc000195700, 0xc000201928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc000192460, 0xc0000d2700)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc000192460, 0xc0000d2700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc000192460, 0xc0000d2700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc000192460, 0xc0000d2700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc0000bb4a0, 0x45ae8e0, 0xc0000d7400)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65312: template: index.html:14: unexpected {{end}}
+goroutine 9 [running]:
+net/http.(*conn).serve.func1(0xc00021a000)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000012540)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc00007a0e0, 0x450f8c0, 0xc000208780, 0xc000205928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc00007a0e0, 0xc000120600)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc00007a0e0, 0xc000120600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc00007a0e0, 0xc000120600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc00007a0e0, 0xc000120600)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021a000, 0x45ae8e0, 0xc00011a840)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65313: template: index.html:14: unexpected {{end}}
+goroutine 10 [running]:
+net/http.(*conn).serve.func1(0xc00021a0a0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc0002d2280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0002d6000, 0x450f8c0, 0xc0002e6200, 0xc0002e3928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0002d6000, 0xc00006e100)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0002d6000, 0xc00006e100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0002d6000, 0xc00006e100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc0002d6000, 0xc00006e100)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc00021a0a0, 0x45ae8e0, 0xc00005c4c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/28 03:01:30 server.go:3139: http: panic serving 127.0.0.1:65314: template: index.html:14: unexpected {{end}}
+goroutine 44 [running]:
+net/http.(*conn).serve.func1(0xc000114280)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1824 +0x153
+panic(0x44c81e0, 0xc000012630)
+	/usr/local/Cellar/go/1.16.5/libexec/src/runtime/panic.go:971 +0x499
+html/template.Must(...)
+	/usr/local/Cellar/go/1.16.5/libexec/src/html/template/template.go:374
+main/app/controllers.generateHTML(0x45ae130, 0xc0002d60e0, 0x450f8c0, 0xc0002e6800, 0xc0002e3928, 0x3, 0x3)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/server.go:16 +0x2ce
+main/app/controllers.index(0x45ae130, 0xc0002d60e0, 0xc000120700)
+	/Users/nawatatakuma/go/src/todo_app/app/controllers/route_main.go:29 +0x3d9
+net/http.HandlerFunc.ServeHTTP(0x4550720, 0x45ae130, 0xc0002d60e0, 0xc000120700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2069 +0x44
+net/http.(*ServeMux).ServeHTTP(0x47cef80, 0x45ae130, 0xc0002d60e0, 0xc000120700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2448 +0x1ad
+net/http.serverHandler.ServeHTTP(0xc000192000, 0x45ae130, 0xc0002d60e0, 0xc000120700)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:2887 +0xa3
+net/http.(*conn).serve(0xc000114280, 0x45ae8e0, 0xc00011a8c0)
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:1952 +0x8cd
+created by net/http.(*Server).Serve
+	/usr/local/Cellar/go/1.16.5/libexec/src/net/http/server.go:3013 +0x39b
+2021/06/29 06:09:37 route_main.go:76: sql: no rows in result set
+2021/06/29 06:09:41 route_main.go:76: sql: no rows in result set
